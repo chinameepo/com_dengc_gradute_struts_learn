@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sitemesh的配置文件，规定了JSP页面的装饰形式 -->
+<decorators defaultdir="/WEB-INF/decorators">
+    <!-- 在excludes元素下指定的页面将不会由SiteMesh来装饰 -->
+    <excludes>
+    	<pattern></pattern> 
+    </excludes>
+
+	<!-- 创建一个名为main的装饰器，该装饰器页面为main.jsp,
+	     用于装饰pattern指定的URL的所有页面-->
+    <decorator name="login" page="WEB-INF/page/login.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    <decorator name ="panel" page ="WEB-INF/page/panel.jsp"></decorator>
+
+</decorators>

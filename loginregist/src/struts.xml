@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+    <struts>
+     <!-- 开发模式，每次更改配置或者代码后，不用重启服务器 -->
+      <constant name="struts.devMode" value="true" />  
+      <!-- 允许struts动态请求，只是调用struts里面的某个方法 -->
+      <constant name = "struts.enable.DynamicMethodInvocation" value = "true"/>
+      
+      <!-- 开始配置strut的action，action要放在一个包空间里面，其实就和java的包一样，随便命名 -->
+      <package name="deng" extends="struts-default">
+         <!-- 配置全局result -->
+        <global-results>
+           <result name ="success">WEB-INF/jsp/success.jsp</result>
+           <result name ="exception">WEB-INF/jsp/error.jsp</result>
+        </global-results>
+        <!-- 配置全局的异常印射 -->
+        <global-exception-mappings>
+           <exception-mapping result="exception" exception="java.lang.Exception"/>
+        </global-exception-mappings>
+        <!--
+        <action name="validateName" class ="action.ValidateNameAction">
+          <result type="json"/> 
+        </action>
+        --><!-- 配置loginAction,registAction，使用通配符配置 -->
+        <!--<action name ="loginAction" class ="action.LoginAction"  >
+           <result name ="input">WEB-INF/jsp/login.jsp</result>
+           <result name ="failure">WEB-INF/jsp/error.jsp</result>
+        </action>
+         <action name ="registAction" class ="action.RegistAction">
+           <result name ="input">WEB-INF/jsp/login.jsp</result>
+           <result name ="failure">WEB-INF/jsp/error.jsp</result>
+        </action>
+        -->
+         <!-- 这个是跳转页面用的，比如我跳转regist.jsp，那么只要请求是regits就可以了。 -->
+        <action name="*.jsp">  
+            <result>WEB-INF/jsp/{1}.jsp</result>  
+        </action> 
+        <action name ="*" class ="action.{0}Action">
+            <result name="input">WEB-INF/jsp/{0}.jsp</result> 
+            <result name="failure">WEB-INF/jsp/{0}.jsp</result> 
+        </action>
+       
+      </package><!--
+        <package name="web_inf_jsp" extends="deng" namespace="/WEB-INF/jsp" />
+      --></struts>
