@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="deng" location="290,165" size="280,420">
+    <action name="loginAction" location="65,71" size="150,83">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="success.jsp" />
+      </result>
+      <result name="error" />
+      <result name="input" />
+    </action>
+    <action name="booksAction" location="65,281" size="150,83">
+      <result name="success" />
+      <result name="error" />
+      <result name="input" />
+    </action>
+    <action name="upload" location="0,0" size="0,0">
+      <result name="success" />
+      <result name="input" />
+    </action>
+    <action name="beanLoginAction" location="0,0" size="0,0">
+      <result name="success" />
+      <result name="error" />
+    </action>
+  </package>
+  <webResource name="success.jsp" path="WEB-INF/page/success.jsp" location="622,220" size="150,55" />
+  <webResource name="error.jsp" path="WEB-INF/page/error.jsp" location="68,220" size="150,55" />
+  <webResource name="login.jsp" path="WEB-INF/page/login.jsp" location="348,10" size="150,55" />
+  <webResource name="showbooks.jsp" path="WEB-INF/page/showbooks.jsp" location="336,640" size="150,55" />
+</Struts2Diagram>
+

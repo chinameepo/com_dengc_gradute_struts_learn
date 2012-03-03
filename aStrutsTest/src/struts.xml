@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+    <struts>
+      <constant name="struts.devMode" value="true" />  
+      <!-- 允许struts动态请求，只是调用struts里面的某个方法 -->
+      <constant name = "struts.enable.DynamicMethodInvocation" value = "true"/>
+
+      <!-- 开始配置strut的action，action要放在一个包空间里面，其实就和java的包一样，随便命名 -->
+      <package name="deng" extends="struts-default">
+      
+        <!-- 配置拦截器 -->
+        <interceptors>
+           <!-- 配置mysimple拦截器 -->
+           <interceptor name = "mysimple" class ="interceptor.SimpleInterceptor">
+             <param name = "name">我的第一个拦截器</param>
+           </interceptor>
+           <!-- 权限控制拦截器 -->
+           <interceptor name="authority" class = "interceptor.AuthorithInterceptor">
+           </interceptor>
+        </interceptors>
+        
+        
+        <!-- 负责登陆验证的action，命名为loginAction,类是自己写的类 -->
+        <action name="loginAction" class="action.LoginAction">
+          <result name="success">WEB-INF/page/success.jsp</result>
+          <result type = "freemarker" name="error">WEB-INF/page/error.ftl</result>
+          <result name ="input">WEB-INF/page/login.jsp</result>
+          <!-- 拦截器的配置一般在resultz之后，defaultStack是必须的 -->
+          <interceptor-ref name = "defaultStack"></interceptor-ref>
+          <interceptor-ref name = "mysimple" >
+             <param name = "name">改名后的拦截器</param>
+          </interceptor-ref>
+        </action>
+        
+        <action name = "booksAction" class = "bookTest.GetBooksAction">
+          <result name="success">WEB-INF/page/showbooks.jsp</result>
+          <result name="error">WEB-INF/page/error.jsp</result>
+          <result name ="input">WEB-INF/page/login.jsp</result>
+          
+          <interceptor-ref name = "defaultStack"/>
+          <interceptor-ref name = "authority"/>
+        </action>
+        
+        <action name ="upload" class = "action.UploadFile">
+          <result name="success">WEB-INF/page/uploadsuccess.jsp</result>
+          <result type = "freemarker" name="input">WEB-INF/page/error.ftl</result>
+        </action>
+        
+        <!-- 用作测试struts2模型驱动的一个action -->
+        <action name = "beanLoginAction" class = "action.BeanLoginAction">
+          <result name="success">index.jsp</result>
+          <result type = "freemarker" name="error">WEB-INF/page/error.ftl</result>
+        </action>
+      </package>
+    
+    </struts>
