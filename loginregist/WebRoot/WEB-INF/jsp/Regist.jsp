@@ -51,15 +51,15 @@
      
       <!-- 输入actionerro的信息 -->
       <s:actionerror/>
-      <span id="tip" style="color:red;font-weight:bold"></span>
+      <span id="tip"  style="color:red;font-weight:bold"></span>
       <center>
        <h3>请填写用户注册信息</h3>
         <!-- 登陆表单，添加表的的页面验证！ -->
         <s:form id="registForm" action ="Regist" >
            <!-- 失去焦点的时候，调用ajax验证用户名是否可用 -->
-           <s:textfield name ="username" label="用户名" onblur ="validateName();"/>
-           <s:password name ="password" label ="密码"/>
-           <s:textfield name ="email" label ="邮箱"/>
+           <s:textfield id ="username" name ="username" label="用户名" onblur ="validateName();"/>
+           <s:password name ="password" label ="密   码"/>
+           <s:textfield name ="email" label ="邮    箱"/>
            <s:textfield name ="vercode" label ="验证码"/>
            <s:submit value ="注册"/>
         </s:form>

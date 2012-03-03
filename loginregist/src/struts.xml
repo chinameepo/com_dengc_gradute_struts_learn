@@ -9,7 +9,7 @@
       <constant name = "struts.enable.DynamicMethodInvocation" value = "true"/>
       
       <!-- 开始配置strut的action，action要放在一个包空间里面，其实就和java的包一样，随便命名 -->
-      <package name="deng" extends="struts-default">
+      <package name="deng" extends="json-default">
          <!-- 配置全局result -->
         <global-results>
            <result name ="success">WEB-INF/jsp/success.jsp</result>
@@ -19,20 +19,12 @@
         <global-exception-mappings>
            <exception-mapping result="exception" exception="java.lang.Exception"/>
         </global-exception-mappings>
-        <!--
+        
         <action name="validateName" class ="action.ValidateNameAction">
           <result type="json"/> 
         </action>
-        --><!-- 配置loginAction,registAction，使用通配符配置 -->
-        <!--<action name ="loginAction" class ="action.LoginAction"  >
-           <result name ="input">WEB-INF/jsp/login.jsp</result>
-           <result name ="failure">WEB-INF/jsp/error.jsp</result>
-        </action>
-         <action name ="registAction" class ="action.RegistAction">
-           <result name ="input">WEB-INF/jsp/login.jsp</result>
-           <result name ="failure">WEB-INF/jsp/error.jsp</result>
-        </action>
-        -->
+       
+ 
          <!-- 这个是跳转页面用的，比如我跳转regist.jsp，那么只要请求是regits就可以了。 -->
         <action name="*.jsp">  
             <result>WEB-INF/jsp/{1}.jsp</result>  
@@ -41,7 +33,5 @@
             <result name="input">WEB-INF/jsp/{0}.jsp</result> 
             <result name="failure">WEB-INF/jsp/{0}.jsp</result> 
         </action>
-       
-      </package><!--
-        <package name="web_inf_jsp" extends="deng" namespace="/WEB-INF/jsp" />
-      --></struts>
+       </package>
+</struts>

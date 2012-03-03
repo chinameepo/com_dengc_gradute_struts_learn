@@ -124,7 +124,7 @@ private Font mFont = new Font("Arial Black", Font.PLAIN, 16);
 		}
 
 		String sRand = "";
-		for (int i = 0; i < 6; i++) {
+		for (int i = 0; i < 2; i++) {
 			String tmp = getRandomChar();
 			sRand += tmp;
 			g.setColor(new Color(20 + random.nextInt(110), 20 + random
