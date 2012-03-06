@@ -37,6 +37,13 @@
       <version>1.2_04</version>
       <scope>provided</scope>
     </dependency>
+    
+    <!-- 导入MVC框架struts的依赖 -->
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<version>2.3.1.2</version>
+		</dependency>
   </dependencies>
   <build>
     <sourceDirectory>${basedir}/src</sourceDirectory>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+     <struts>
+      <constant name="struts.devMode" value="true" />  
+      <!-- 允许struts动态请求，只是调用struts里面的某个方法 -->
+      <constant name = "struts.enable.DynamicMethodInvocation" value = "true"/>
+      
+      <package name="freemaker" extends="struts-default">
+         <action name="loginAction" class="action.LoginAction">
+            <result name="success" type="freemarker">WEB-INF/page/success.jsp</result>
+            <result name="input" >login.jsp</result>
+         </action>
+      </package>
+    </struts>

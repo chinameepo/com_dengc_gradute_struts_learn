@@ -4,7 +4,18 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<!-- 配置struts的过滤器，规定过滤器的类，和拦截的请求类型 -->
+	<filter>
+	   <filter-name>freemkstruts</filter-name>
+	   <filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+	</filter>
+	<filter-mapping>
+	   <filter-name>freemkstruts</filter-name>
+	   <url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
   <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
