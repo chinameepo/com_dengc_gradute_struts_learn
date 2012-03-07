@@ -45,12 +45,7 @@
 			<version>2.3.1.2</version>
 		</dependency>
 		<!-- 导入视图组件freemarker的jar包 -->
-		<dependency>
-	<groupId>org.freemarker</groupId>
-	<artifactId>freemarker</artifactId>
-	<version>2.3.18</version>
-</dependency>
-            
+	           
   </dependencies>
   <build>
     <sourceDirectory>${basedir}/src</sourceDirectory>

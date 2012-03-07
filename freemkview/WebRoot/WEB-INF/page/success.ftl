@@ -1,5 +1,5 @@
 
-<#assign s=JspTaglibs["/WEB-INF/struts-tags.tld "]>  
+<#assign s=JspTaglibs["/WEB-INF/struts-tags.tld"]/>  
 <html>
  <head>
  <title>登陆成功！</title>
@@ -13,6 +13,10 @@
         <tr><td>用户名</td> <td>${i}}</td></tr>
       </#list>
    </table>
+   
+    <@s.form id ="loginForm" action ="#">
+    <@s.submit value ="测试"/>
+    </@s.form>
    </center>
  </body>
 </html>
