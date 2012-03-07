@@ -1,4 +1,5 @@
-<#assign s =JspTaglibs["/WEB-INF/struts-tags.tld"]>
+
+<#assign s=JspTaglibs["/WEB-INF/struts-tags.tld "]>  
 <html>
  <head>
  <title>登陆成功！</title>

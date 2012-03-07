@@ -15,16 +15,13 @@
 	   <url-pattern>/*</url-pattern>
 	</filter-mapping>
 	
-	<!-- 如果要使用freemarker作为真正的视图，就要加载这个类 
-	A servlet that means to expose itself through a 
-	public static member variable such that its ServletContext could be accessible. -->
+	<!-- 在Freemarker中使用Struts2标签,让Freemarker可以使用jsp标签必须配置一个新SERVLET -->
 	<servlet>
-	   <servlet-name>jspSupport</servlet-name>
+	   <servlet-name>JspSupportServlet</servlet-name>
 	   <servlet-class>org.apache.struts2.views.JspSupportServlet</servlet-class>
-	   <!-- 自动启动 -->
 	    <load-on-startup>1</load-on-startup>
 	</servlet>
   <welcome-file-list>
-    <welcome-file>login.ftl</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
