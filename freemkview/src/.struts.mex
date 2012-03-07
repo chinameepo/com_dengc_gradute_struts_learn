@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="freemaker" location="10,10" size="280,140">
+    <action name="loginAction" location="65,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="success.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="login.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="success.jsp" path="WEB-INF/page/success.jsp" location="62,205" size="150,55" />
+  <webResource name="login.jsp" path="login.jsp" location="345,30" size="150,55" />
+</Struts2Diagram>
+

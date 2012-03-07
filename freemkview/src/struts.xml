@@ -9,8 +9,8 @@
       
       <package name="freemaker" extends="struts-default">
          <action name="loginAction" class="action.LoginAction">
-            <result name="success" type="freemarker">WEB-INF/page/success.jsp</result>
-            <result name="input" >login.jsp</result>
+            <result name="success" type="freemarker">WEB-INF/page/success.ftl</result>
+            <result name="input" >login.ftl</result>
          </action>
       </package>
     </struts>
