@@ -84,12 +84,31 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.18</version>
 		</dependency>
+		
+		
+		<!--
+			导入日志组件slf4j+logback的依赖,如果以前用的是loggings，那么就要添加logging-over-slf4j的依赖
+			需要配置文件logback.xml
+		-->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		<!-- core是classice的基础，要运行classsic，必须要用到core  -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!--logback-classic依赖于slf4j-api  -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 
 	</dependencies>
-
-
-
-
 
 	<!-- 一下是系统默认的一些包，不用管,都是规定系统源文件目录、编译文件目录 -->
 	<build>
