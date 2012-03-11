@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.hib">
+
+   <class name="Student" table="student">
+    <id name="id"></id>
+    <!-- 当属性和数据库中的名称一样，并且没有特别要说明的，直接用这个就可以了 -->
+	<property name="name"/>
+	<property name="company"/>
+	<property name="school" column="学校"></property>
+    </class>
+</hibernate-mapping>

@@ -59,7 +59,7 @@
 			<artifactId>struts2-json-plugin</artifactId>
 			<version>2.3.1.2</version>
 		</dependency>
-		<!-- 要整合hibernate，还需要这个包，记得版本要和spring-plugin对应 -->
+		<!-- 要整合hibernate，还需要这个包，记得版本要和spring-plugin对应3.05 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>

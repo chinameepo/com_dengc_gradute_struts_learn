@@ -1,0 +1,16 @@
+一个拍卖系统，使用框架：
+MVC框架：struts2.3
+IOC框架：spring3.0.5
+ORM框架：hibernate3.6
+JRE:J2SE1.5
+JDK:1.6.0
+视图显示：JSP+freemarker
+日志组件：logback+slf4j
+使用工具：
+IDE:myeclipse8.6
+构建管理工具，jar包添加：m2eclipse
+服务器：tomcat
+版本控制工具：git
+功能：
+登陆、查看拍卖、竞拍、添加拍卖类别、添加物品
+构建日期：2012-3-10

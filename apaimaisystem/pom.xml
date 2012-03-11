@@ -14,27 +14,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.faces</groupId>
-      <artifactId>jsf-api</artifactId>
-      <version>1.2_04</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
-      <version>1.2</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
       <version>2.1</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>javax.faces</groupId>
-      <artifactId>jsf-impl</artifactId>
-      <version>1.2_04</version>
       <scope>provided</scope>
     </dependency>
     
@@ -51,20 +33,19 @@
 			<version>2.3.1.2</version>
 		</dependency>
 		<!-- ajax的支持 -->
-
 		<dependency>
 			<groupId>org.apache.struts</groupId>
 			<artifactId>struts2-json-plugin</artifactId>
 			<version>2.3.1.2</version>
 		</dependency>
-		<!-- 要整合hibernate，还需要这个包，记得版本要和spring-plugin对应 -->
+		<!-- 要整合hibernate，还需要这个有hibernate代理的包，记得版本要和spring-plugin对应 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
 			<version>3.0.5.RELEASE</version>
 		</dependency>
 
-		<!-- 导入ORM框架hibernate 的依赖 -->
+		<!-- 导入ORM框架hibernate 的依赖-->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
