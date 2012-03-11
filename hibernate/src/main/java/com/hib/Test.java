@@ -28,22 +28,24 @@ public class Test extends HibernateUtil
 
 	/**
 	 * 测试三个操作：查询指定的ID,插入信息，条件查询
+	 * 
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		Test test =new Test();
-		//先查看第九个学生的信息
+	public static void main(String[] args)
+	{
+		Test test = new Test();
+		// 先查看第九个学生的信息
 		test.getsStudent(9);
 		test.insertStudent("邓CCC", "hua wei ", "wuths");
 		test.query();
 	}
-	
 
 	/**
 	 * 通过制定的ID查询制定的学生是否在数据库中
 	 * 
-	 * @param id 学生在数据库中的ID
-	 * @return  返回查询对象，可能为空
+	 * @param id
+	 *            学生在数据库中的ID
+	 * @return 返回查询对象，可能为空
 	 */
 	public Student getsStudent(int id)
 	{
@@ -62,24 +64,28 @@ public class Test extends HibernateUtil
 			return null;
 		}
 	}
+
+	/**
+	 * 条件查询的函数，通过查询id在什么范围，然后输入结果
+	 */
 	public void query()
 	{
 		Session session = getSession();
-		//开始条件查询
+		// 开始条件查询
 		Criteria criteria = session.createCriteria(Student.class);
-		//添加条件，eq是等于，gt是大于，lt是小于,or是或
+		// 添加条件，eq是等于，gt是大于，lt是小于,or是或
 		criteria.add(Restrictions.lt("id", 50));
 		java.util.List list = criteria.list();
-		//遍历查询结果
-		for (Iterator iterator =list.iterator();iterator.hasNext(); )
+		// 遍历查询结果
+		for (Iterator iterator = list.iterator(); iterator.hasNext();)
 		{
 			Student stu = (Student) iterator.next();
-			logger.info("id ="+stu.getId()+",name ="+stu.getName());
+			logger.info("id =" + stu.getId() + ",name =" + stu.getName());
 		}
 	}
 
 	/**
-	 * 插入一个对象到数据库中
+	 * 插入一个对象到数据库中，不用担心这个对象没有id，没关系的。我在数据库中设置id的属性是identity，它会自己把id添加到数据中
 	 * 
 	 * @param name
 	 *            学生的姓名
