@@ -1,0 +1,11 @@
+功能：
+用户登陆、用户注册，带有验证码。验证码长度可以自己在authimg中进行修改。
+
+数据库已经做完，其中我们只需要一个user的表就行了，其它的不用管。
+使用：hibernate3.6+struts2.3+spring 3.0
+ide: myeclipse
+服务器:tomcat
+数据库：mysql
+待完成的功能：使用ajax进行动态用户注册验证。
+管理构建工具:m2eclipse
+jdk:1.6.0
