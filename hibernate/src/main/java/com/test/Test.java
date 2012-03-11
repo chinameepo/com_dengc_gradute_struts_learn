@@ -1,6 +1,7 @@
-package com.hib;
+package com.test;
 
 import java.util.Iterator;
+
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;
@@ -12,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.hib.util.HibernateUtil;
+import com.model.Student;
 
 import antlr.collections.List;
 

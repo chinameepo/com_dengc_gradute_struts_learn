@@ -3,7 +3,8 @@
 	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
 	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
-<session-factory >
+<session-factory name="dengFactory">
+    <!-- 规定它在控制台是否输出它在后台运行的一些代码，是否要按照固定格式输出 -->
 	<property name="show_sql">true</property>
     <property name="format_sql">true</property>
 	<property name="connection.url">
@@ -14,6 +15,7 @@
 	<property name="connection.driver_class">
     com.mysql.jdbc.Driver
     </property>
+    <!-- 因为每种数据库库的语法都是有区别的，这里就要规定方言，为myslq数据库 -->
 	<property name="dialect">
     org.hibernate.dialect.MySQLDialect
     </property>

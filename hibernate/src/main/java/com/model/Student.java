@@ -1,4 +1,4 @@
-package com.hib; 
+package com.model; 
 /** 
  * All right Rserved Dengc2011
  * @author 邓超   E-mail: dengchaoccc@qq.com
