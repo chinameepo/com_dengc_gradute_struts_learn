@@ -1,5 +1,8 @@
-<!--使用freemarker的视图,并且使用struts的标签-->
-<#assign s =JspTaglibs["/WEB-INF/struts-tags.tld"]>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<%@taglib prefix="s" uri="/struts-tags"%>
+
 <html>
     <head>
       <title>用户登陆</title>
@@ -22,7 +25,7 @@
       <center>
       <h3>请输入用户名和密码登录</h3>
         <!-- 登陆表单，添加表的的页面验证！ -->
-        <s:form id="loginForm" action ="login"  >
+        <s:form id="loginForm" action ="Login"  >
            <s:textfield name ="username" label="用户名"/>
            <s:password name ="password" label ="密码"/>
            <s:textfield name ="vercode" label ="验证码"/>
@@ -34,5 +37,7 @@
         <br>
         看不清？单击此处刷新 <a href="#" onclick ="refresh();">获取验证</a>
       </center>
+     
    </body>
 </html>
+

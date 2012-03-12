@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="dengc-mgritem" extends="deng">
+		<action name="mgrItem" class="action.MgrItemAction">
+            <result name="success">/WEB-INF/jsp/mgrItem.jsp</result>
+        </action>
+         <action name="proAddItem" class="action.AddItemAction">
+            <!-- 页面跳转过程一直是同一个线程，Action中的数据一直保存着。 -->
+            <result name="input" type="chain">mgrItem</result>    
+            <result name="success" type="chain">mgrItem</result>
+        </action>
+	</package>
+</struts>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="dengc-viewkind" extends="deng">
+		<action name="viewKind" class="action.ViewKindAction">
+			<result name="success">/WEB-INF/jsp/viewKind.jsp</result>
+		</action>
+		<action name="viewItem" class="action.ViewItemAction">
+			<result name="input">viewKind.action</result>
+			<result name="success">/WEB-INF/jsp/viewItem.jsp</result>
+		</action>
+		<action name="viewDetail" class="action.ViewDetailAction">
+            <result name="error">/WEB-INF/jsp/error.jsp</result>
+            <result name="success">/WEB-INF/jsp/viewDetail.jsp</result>
+        </action>
+        <action name="bid" class="action.AddBidAction">
+            <result name="input" type="chain">viewDetail</result>    
+            <result name="success" type="chain">viewBid</result>
+        </action>
+        <action name="viewBid" class="action.ViewBidAction">
+            <result name="success">/WEB-INF/page/viewBid.ftl</result>    
+        </action>
+	</package>
+</struts>

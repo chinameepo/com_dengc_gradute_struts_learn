@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="model">
+	<class	name="Kind"	table="kind">
+		<id	name="id"	type="integer"	column="kind_id">
+			<generator class="identity"/>
+		</id>
+
+		<property name="kindName" column="kind_name" type="string" not-null="true" length="50"/>
+
+		<property name="kindDesc" column="kind_desc" type="string"	not-null="true" length="255"/>
+
+		<set name="items" inverse="true">
+			<key column="kind_id" />
+			<one-to-many class="Item" />
+		</set>
+	</class>	
+</hibernate-mapping>

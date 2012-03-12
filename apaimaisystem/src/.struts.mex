@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="cwq" location="234,10" size="280,315">
+    <action name="index" location="65,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+    </action>
+    <action name="processLogin" location="65,176" size="150,83">
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="login.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="main.jsp" />
+      </result>
+      <result name="failure">
+        <resourceEdge source="failure" routing="0" target="login.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="main.jsp" path="/WEB-INF/jsp/main.jsp" location="15,170" size="150,55" />
+  <webResource name="login.jsp" path="/WEB-INF/jsp/login.jsp" location="292,380" size="150,55" />
+  <include file="struts-itemsuccess.xml" location="9,555" size="150,30" />
+  <include file="struts-itemfailure.xml" location="254,555" size="150,30" />
+  <include file="struts-mgrkind.xml" location="500,555" size="150,30" />
+  <include file="struts-mgritem.xml" location="10,660" size="150,30" />
+  <include file="struts-viewkind.xml" location="255,660" size="150,30" />
+  <include file="struts-android.xml" location="500,660" size="150,30" />
+</Struts2Diagram>
+

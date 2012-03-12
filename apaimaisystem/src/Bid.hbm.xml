@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="model">
+	<class	name="Bid" table="bid" >
+		<id	name="id" type="integer" column="bid_id">
+			<generator class="identity"/>
+		</id>
+
+		<property name="bidPrice" column="bid_price" type="java.lang.Double"	not-null="true"	length="12"/>
+		<property name="bidDate" column="bid_date"	type="date"	not-null="true"	length="10"/>
+		<many-to-one name="bidItem"	column="item_id" not-null="true" lazy="false"/>
+		<many-to-one name="bidUser"	column="user_id" not-null="true" lazy="false"/>
+
+	</class>	
+</hibernate-mapping>

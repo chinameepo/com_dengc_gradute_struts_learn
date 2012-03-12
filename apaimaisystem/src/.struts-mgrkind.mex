@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="cwq-mgrkind" location="10,10" size="280,245">
+    <action name="mgrKind" location="65,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="mgrKind.jsp" />
+      </result>
+    </action>
+    <action name="proAddKind" location="65,152" size="150,62">
+      <result name="input" />
+      <result name="success" />
+    </action>
+  </package>
+  <webResource name="mgrKind.jsp" path="/WEB-INF/jsp/mgrKind.jsp" location="342,30" size="150,55" />
+</Struts2Diagram>
+

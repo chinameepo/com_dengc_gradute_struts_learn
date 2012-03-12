@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="dengc-mgrkind" extends="deng">
+		 <action name="mgrKind" class="com.cwq.action.MgrKindAction">
+            <result name="success">/WEB-INF/jsp/mgrKind.jsp</result>    
+        </action>
+        <action name="proAddKind" class="action.AddKindAction">
+            <result name="input" type="chain">mgrKind</result>    
+            <result name="success" type="chain">mgrKind</result>
+        </action>
+	</package>
+</struts>
