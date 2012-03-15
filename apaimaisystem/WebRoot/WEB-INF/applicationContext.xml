@@ -95,7 +95,7 @@
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 
-	<bean id="stateDao" class="com.cwq.dao.impl.StateDaoHibernate"
+	<bean id="stateDao" class="dao.impl.StateDaoHibernate"
 		parent="daoTemplate" />
 
 	<bean id="bidDao" class="dao.impl.BidDaoHibernate" parent="daoTemplate" />
