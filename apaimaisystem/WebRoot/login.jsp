@@ -25,7 +25,7 @@
       <center>
       <h3>请输入用户名和密码登录</h3>
         <!-- 登陆表单，添加表的的页面验证！ -->
-        <s:form id="loginForm" action ="Login"  >
+        <s:form id="loginForm" action ="login" >
            <s:textfield name ="username" label="用户名"/>
            <s:password name ="password" label ="密码"/>
            <s:textfield name ="vercode" label ="验证码"/>

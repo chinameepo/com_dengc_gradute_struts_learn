@@ -5,6 +5,10 @@
 <struts>
 	<constant name="struts.custom.i18n.resources" value="messageResource"/>
 	<constant name="struts.i18n.encoding" value="utf-8"/>
+	<!-- 开发模式，这样不必每次都重启服务器，不过因为服务器反应太慢了，其实还是要重启的。 -->
+	<constant name="struts.devMode" value="true" />  
+    <!-- 允许struts动态请求，只是调用struts里面的某个方法 -->
+    <constant name = "struts.enable.DynamicMethodInvocation" value = "true"/>
 
     <package name="deng" extends="struts-default">
         
