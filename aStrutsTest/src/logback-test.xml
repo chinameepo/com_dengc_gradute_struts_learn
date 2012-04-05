@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
-	<!-- <appender>是<configuration>的子节点，是负责写日志的组件。 -->
+	<!-- <appender>是<configuration>的子节点，是负责写日志的组件。输出到控制台 -->
 	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
 		<layout class="ch.qos.logback.classic.PatternLayout">
 			<pattern>%-20(%d{HH:mm:ss.SSS} [%thread]) %-5level %logger{80} -
 				%msg%n</pattern>
 		</layout>
 	</appender>
+	<!-- 同时写入文件 -->
   <appender name="FILE" class="ch.qos.logback.core.FileAppender">
     <file>denglog.log</file>
     <append>true</append>

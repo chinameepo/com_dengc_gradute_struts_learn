@@ -25,7 +25,7 @@
 		<global-results>
 			<!-- 下面定义的结果对所有的Action都有效 -->
 			<result name="login">/WEB-INF/page/login.jsp</result>
-			<result name="exception">/WEB-INF/page/error.jsp</result>
+			<result name="exception">/WEB-INF/page/error.ftl</result>
 		</global-results>
 
 		<global-exception-mappings>
@@ -36,13 +36,13 @@
 		</global-exception-mappings>
 		
 		<action name="index">
-            <result name="success">/WEB-INF/jsp/main.jsp</result>
+            <result name="success">/WEB-INF/page/main.jsp</result>
         </action>
 
         <action name="login" class="action.LoginAction">
-            <result name="input">/WEB-INF/page/login.ftl</result>    
-            <result name="success">/WEB-INF/page/main.ftl</result>
-            <result name="failure">/WEB-INF/page/login.ftl</result>
+            <result name="input" type="freemarker">/WEB-INF/page/login.ftl</result>    
+            <result name="success" type="freemarker">/WEB-INF/page/main.ftl</result>
+            <result name="failure" type="freemarker">/WEB-INF/page/login.ftl</result>
 			<interceptor-ref name="defaultStack"/>
         </action>
     </package> 
