@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+	<!-- 一个hibernate的映射文件，是考试成绩的最终印射，包括学生、课程、学期和成绩 -->
+<hibernate-mapping package="model">
+	<class name="Student" table="student">
+		<id name="id" type="int" column="id">
+			<generator class="identity" />
+		</id>
+		<!-- 姓名 ，此处因为在类中和数据库中的名字、数据类型都是相同的，所以只需要写出名字，其余的按照默认的就可以了-->
+		<property name="sex" />
+		<property name="name" />
+		<property name="address" />
+		<property name="tel" />
+		<property name="email" />
+		<property name="qq" />
+		<property name="room" />
+		<property name="poor" />
+		<property name="ralation" />
+		<property name="ralationTel" />
+		<property name="avaScore" />
+		<property name="discipline" />
+		<property name="escClass" />
+		<property name="fine" />
+		<property name="note" />
+		<!-- 一个学生只能对应一个班级，一个班级可以有多个学生，因此此处是多对一 -->
+		
+		<many-to-one name="studentClass" column="studentClass"
+			class="StudentClass" lazy="false" />
+	</class>
+</hibernate-mapping>

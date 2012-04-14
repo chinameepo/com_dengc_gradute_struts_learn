@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<!-- 一个hibernate的映射文件，是考试成绩的最终印射，包括学生、课程、学期和成绩 -->
+<hibernate-mapping package="model">
+   <class name="Score" table="score">
+       <id	name="id" type="int" column="id">
+			<generator class="identity"/>
+		</id>
+		<!-- 一个成绩能对应一个学生，一个学生可以拥有多个成绩，所以此处是多对一 -->
+		<many-to-one name="student" column="stuid" class="Student" not-null="true" lazy="false"/>
+		<!-- 一门课程可以有多个成绩，一个成绩对应一门课程。所以此处是多对一 -->
+		<many-to-one name="cource" column="courceid" class ="Cource" not-null="true" lazy="false"/>
+		<!-- 学期 -->
+		<property name="term" column="term" type="string" />
+		<!-- 分数 ，此处因为在类中和数据库中的名字、数据类型都是相同的，所以只需要写出名字，其余的按照默认的就可以了-->
+		<property name="score" />
+   </class>
+</hibernate-mapping>

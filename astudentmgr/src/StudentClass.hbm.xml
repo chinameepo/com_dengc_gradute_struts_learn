@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="model">
+<!-- 班级信息的印射表，包括班级名称，专业，教室，班主任，班长，人数等信息 -->
+	 <class name="StudentClass" table="class">
+       <id	name="id" type="int" column="id">
+			<generator class="identity"/>
+		</id>
+		<property name="className"/>
+		<property name="sum"/>
+		<property name="classroom"/>
+		<property name="major"/>
+		<property name="teacher"/>
+		<property name="monitor"/>
+		<property name="monitorTel"/>
+	</class>
+</hibernate-mapping>

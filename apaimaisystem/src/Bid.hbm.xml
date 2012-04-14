@@ -11,6 +11,7 @@
 
 		<property name="bidPrice" column="bid_price" type="java.lang.Double"	not-null="true"	length="12"/>
 		<property name="bidDate" column="bid_date"	type="date"	not-null="true"	length="10"/>
+		<!-- 多对一的关系，多个叫卖对多个商品 -->
 		<many-to-one name="bidItem"	column="item_id" not-null="true" lazy="false"/>
 		<many-to-one name="bidUser"	column="user_id" not-null="true" lazy="false"/>
 

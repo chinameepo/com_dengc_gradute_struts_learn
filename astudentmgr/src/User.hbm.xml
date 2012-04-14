@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+	<hibernate-mapping package="model">
+	<!-- 系统用户的用户名和密码，主要包括用户名、密码、用户类型 -->
+	   <class name="User" table="user">
+	       <id	name="id" type="int" column="id">
+				<generator class="identity"/>
+			</id>
+			<property name="username"/>
+			<property name="password"/>
+			<property name="type"/>
+	   </class>
+   </hibernate-mapping>

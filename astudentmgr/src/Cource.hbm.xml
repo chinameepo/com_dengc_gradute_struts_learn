@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<!-- 一个hibernate的映射文件，是课程的印射。包括课程名称、上课时间地点、老师教材等信息-->
+<hibernate-mapping package="model">
+	<class name="Cource" table="cource">
+		<id	name="id" type="int" column="id">
+			<generator class="identity"/>
+		</id>
+		<property name="name"/>
+		<property name="teacher"/>
+		<property name="classroom"/>
+		<property name="time"/>
+		<property name="book"/>
+		<property name="note"/>
+		
+	</class>
+</hibernate-mapping>

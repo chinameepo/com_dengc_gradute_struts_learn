@@ -1,0 +1,12 @@
+工程：astudentmgr ，学生信息管理系统，
+毕业设计使用项目
+功能：对学生信息进行增删改查询、添加删除课程、添加删除学生信息、添加删除班级。
+开发工具： myeclipse 8.6
+jar管理：m2eclipse
+jre :j2se1.5
+jdk:1.6.0
+框架：struts 2.3.1 +spring 3.0.5+hibernate3.6.9
+日志组件：logback+ slf4j
+数据连接池：c3p0 0.9
+数据库驱动：mysql-connector-java 5.1.18
+

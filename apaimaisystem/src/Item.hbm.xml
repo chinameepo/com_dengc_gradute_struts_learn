@@ -16,7 +16,7 @@
 		<property	name="endTime"	column="endtime"	type="date"	not-null="true"	length="10"/>
 		<property	name="initPrice" column="init_price" type="java.lang.Double" not-null="true"	length="12"/>
 		<property	name="maxPrice"	column="max_price"	type="java.lang.Double"	not-null="true"	length="12"/>
-
+        <!-- 多个ITEM属于一个拥有者，属于一个类型，属于一个胜利者，属于一个状态-->
 		<many-to-one name="owner" column="owner_id"	class="AuctionUser"	not-null="true" lazy="false"/>
 		<many-to-one name="kind" column="kind_id" class="Kind"	not-null="true" lazy="false"/>
 		<many-to-one name="winer" column="winer_id"	class="AuctionUser"	not-null="false" lazy="false"/>
