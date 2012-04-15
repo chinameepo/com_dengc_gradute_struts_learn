@@ -9,7 +9,7 @@
 		<!-- 指定连接数据库的驱动 -->
 		<property name="driverClass" value="com.mysql.jdbc.Driver" />
 		<!-- 指定连接数据库的URL -->
-		<property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/auction" />
+		<property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/studentmgr" />
 		<!-- 指定连接数据库的用户名 -->
 		<property name="user" value="root" />
 		<!-- 指定连接数据库的密码 -->
@@ -30,11 +30,11 @@
 		<property name="dataSource" ref="dataSource" />
 		<property name="mappingResources">
 			<list>
-				<value>AuctionUser.hbm.xml</value>
-				<value>Bid.hbm.xml</value>
-				<value>Item.hbm.xml</value>
-				<value>Kind.hbm.xml</value>
-				<value>State.hbm.xml</value>
+				<value>User.hbm.xml</value>
+				<value>Cource.hbm.xml</value>
+				<value>Score.hbm.xml</value>
+				<value>Student.hbm.xml</value>
+				<value>StudentClass.hbm.xml</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
@@ -111,6 +111,7 @@
 		<property name="mgr" ref="mgr" />
 	</bean>
 
+<!-- 一些spring的配置，不用管 -->
 	<bean id="scheduledTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
 		<property name="delay" value="0" />
 		<property name="period" value="86400000" />
