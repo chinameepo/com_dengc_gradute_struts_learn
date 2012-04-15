@@ -11,42 +11,12 @@ public class Score
 {
 	/**
 	 * 属性包括学生姓名、课程名、学期、最后得分*/
-	private Student student;
 	private Course course;
 	private String term;
 	private double score;
+	/*这里是多对一的关系，多个成绩对应一个学生，一个学生拥有多个成绩*/
+	private Student student;
 	
-	public Student getStudent()
-	{
-		return student;
-	}
-	public void setStudent(Student student)
-	{
-		this.student = student;
-	}
-	public Course getCourse()
-	{
-		return course;
-	}
-	public void setCourse(Course course)
-	{
-		this.course = course;
-	}
-	public String getTerm()
-	{
-		return term;
-	}
-	public void setTerm(String term)
-	{
-		this.term = term;
-	}
-	public double getScore()
-	{
-		return score;
-	}
-	public void setScore(double score)
-	{
-		this.score = score;
-	}
+	
 }
  

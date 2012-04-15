@@ -18,6 +18,7 @@ public class Kind
 	private String kindName;
 	//对类别的具体描述，比如日用品的范围规定、注意事项等等
 	private String kindDesc;
+	//一个种类可以有多个物品，所以这里是一对多的关系
 	private Set<Item> items = new HashSet();
 	
 	public Integer getId() {

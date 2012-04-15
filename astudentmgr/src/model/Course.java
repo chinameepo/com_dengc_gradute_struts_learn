@@ -1,4 +1,7 @@
 package model; 
+
+import java.util.Set;
+
 /** 
  * 文件名：Course.java
  * All right Rserved Dengc2012
@@ -19,56 +22,9 @@ public class Course
 	private String classroom;
 	private String time;
 	private String note;
+	/*多对多的关系，一个课程可能有多个学生选中，一个学生也有多个课程*/
+	private Set<StudentClass> studentClass;
 	
-	public String getName()
-	{
-		return name;
-	}
-	public void setName(String name)
-	{
-		this.name = name;
-	}
-	public String getTeacher()
-	{
-		return teacher;
-	}
-	public void setTeacher(String teacher)
-	{
-		this.teacher = teacher;
-	}
-	public String getBook()
-	{
-		return book;
-	}
-	public void setBook(String book)
-	{
-		this.book = book;
-	}
-	public String getClassroom()
-	{
-		return classroom;
-	}
-	public void setClassroom(String classroom)
-	{
-		this.classroom = classroom;
-	}
-	public String getTime()
-	{
-		return time;
-	}
-	public void setTime(String time)
-	{
-		this.time = time;
-	}
-	public String getNote()
-	{
-		return note;
-	}
-	public void setNote(String note)
-	{
-		this.note = note;
-	}
 	
-
 }
  

@@ -1,4 +1,7 @@
 package model; 
+
+import java.util.Set;
+
 /** 
  * 文件名：Student.java
  * All right Rserved Dengc2012
@@ -16,7 +19,7 @@ public class Student
 	private String tel;
 	private String email;
 	private String qq;
-	/**班级信息，一个班级多个学生，一对多的关系*/
+	/*班级信息，一个班级多个学生，一对多的关系*/
 	private StudentClass studentClass;
 	/**寝室号*/
 	private String room;
@@ -35,143 +38,15 @@ public class Student
 	private String fine;
 	/**备注*/
 	private String note;
-	
-	
+	/**
+	 * 多对多的关系，多个学生对应多个课程*/
+	private Set<Course>courses;
+	/**多对一的关系，一个学生有多个成绩*/
+	private Set<Score>scores;
 	/**
 	 * getter && setter方法
 	 * */
 	
-	public String getName()
-	{
-		return name;
-	}
-	public void setName(String name)
-	{
-		this.name = name;
-	}
-	public String getSex()
-	{
-		return sex;
-	}
-	public void setSex(String sex)
-	{
-		this.sex = sex;
-	}
-	public String getAddress()
-	{
-		return address;
-	}
-	public void setAddress(String address)
-	{
-		this.address = address;
-	}
-	public String getTel()
-	{
-		return tel;
-	}
-	public void setTel(String tel)
-	{
-		this.tel = tel;
-	}
-	public String getEmail()
-	{
-		return email;
-	}
-	public void setEmail(String email)
-	{
-		this.email = email;
-	}
-	public String getQq()
-	{
-		return qq;
-	}
-	public void setQq(String qq)
-	{
-		this.qq = qq;
-	}
-	public StudentClass getStudentClass()
-	{
-		return studentClass;
-	}
-	public void setStudentClass(StudentClass studentClass)
-	{
-		this.studentClass = studentClass;
-	}
-	public String getRoom()
-	{
-		return room;
-	}
-	public void setRoom(String room)
-	{
-		this.room = room;
-	}
-	public String getPoor()
-	{
-		return poor;
-	}
-	public void setPoor(String poor)
-	{
-		this.poor = poor;
-	}
-	public String getRalation()
-	{
-		return ralation;
-	}
-	public void setRalation(String ralation)
-	{
-		this.ralation = ralation;
-	}
-	public String getRalationTel()
-	{
-		return ralationTel;
-	}
-	public void setRalationTel(String ralationTel)
-	{
-		this.ralationTel = ralationTel;
-	}
-	public double getAvaScore()
-	{
-		return avaScore;
-	}
-	public void setAvaScore(double avaScore)
-	{
-		this.avaScore = avaScore;
-	}
-	public String getDiscipline()
-	{
-		return discipline;
-	}
-	public void setDiscipline(String discipline)
-	{
-		this.discipline = discipline;
-	}
-	public int getEscClass()
-	{
-		return escClass;
-	}
-	public void setEscClass(int escClass)
-	{
-		this.escClass = escClass;
-	}
-	public String getFine()
-	{
-		return fine;
-	}
-	public void setFine(String fine)
-	{
-		this.fine = fine;
-	}
-	public String getNote()
-	{
-		return note;
-	}
-	public void setNote(String note)
-	{
-		this.note = note;
-	}
 	
-	
-	
-
 }
  

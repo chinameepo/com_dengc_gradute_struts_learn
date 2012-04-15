@@ -41,7 +41,5 @@ public class User
 	{
 		this.type = type;
 	}
-	
-	
 }
  

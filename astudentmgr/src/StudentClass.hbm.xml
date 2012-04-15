@@ -15,5 +15,10 @@
 		<property name="teacher"/>
 		<property name="monitor"/>
 		<property name="monitorTel"/>
+		<!-- 这是一个班级，一个课程可以有多个班级，一个班级也可以有多个课程。所以此处是多对多的关系 -->
+		 <set name="courses"  lazy="false" cascade="all">
+            <key column="id"/>
+            <many-to-many class="model.Cource" column="id"/>
+        </set>
 	</class>
 </hibernate-mapping>

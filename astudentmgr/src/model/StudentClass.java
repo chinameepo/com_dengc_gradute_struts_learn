@@ -1,4 +1,7 @@
 package model; 
+
+import java.util.Set;
+
 /** 
  * 文件名：Class.java
  * All right Rserved Dengc2012
@@ -21,61 +24,8 @@ public class StudentClass
 	/*班长姓名和联系方式*/
 	private String monitor;
 	private String monitorTel;
-	public String getClassName()
-	{
-		return className;
-	}
-	public void setClassName(String className)
-	{
-		this.className = className;
-	}
-	public int getSum()
-	{
-		return sum;
-	}
-	public void setSum(int sum)
-	{
-		this.sum = sum;
-	}
-	public String getClassroom()
-	{
-		return classroom;
-	}
-	public void setClassroom(String classroom)
-	{
-		this.classroom = classroom;
-	}
-	public String getMajor()
-	{
-		return major;
-	}
-	public void setMajor(String major)
-	{
-		this.major = major;
-	}
-	public String getTeacher()
-	{
-		return teacher;
-	}
-	public void setTeacher(String teacher)
-	{
-		this.teacher = teacher;
-	}
-	public String getMonitor()
-	{
-		return monitor;
-	}
-	public void setMonitor(String monitor)
-	{
-		this.monitor = monitor;
-	}
-	public String getMonitorTel()
-	{
-		return monitorTel;
-	}
-	public void setMonitorTel(String monitorTel)
-	{
-		this.monitorTel = monitorTel;
-	}
+	/**这里是一对多的关系，一个班级可以有多个学生*/
+	private Set<Student>students;
+	
 }
  

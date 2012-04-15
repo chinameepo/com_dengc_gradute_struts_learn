@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50155
 File Encoding         : 65001
 
-Date: 2012-04-14 17:27:57
+Date: 2012-04-15 17:35:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -45,12 +45,32 @@ CREATE TABLE `cource` (
   `classroom` varchar(255) DEFAULT NULL,
   `book` varchar(255) DEFAULT NULL,
   `time` varchar(255) DEFAULT NULL,
+  `studentClass` int(11) DEFAULT NULL,
   `note` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `studentClass` (`studentClass`),
+  CONSTRAINT `cource_ibfk_1` FOREIGN KEY (`studentClass`) REFERENCES `class` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of cource
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for `course_student_link`
+-- ----------------------------
+DROP TABLE IF EXISTS `course_student_link`;
+CREATE TABLE `course_student_link` (
+  `courseId` int(11) NOT NULL DEFAULT '0',
+  `studentId` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`courseId`,`studentId`),
+  KEY `course_student_link_ibfk_2` (`studentId`),
+  CONSTRAINT `course_student_link_ibfk_2` FOREIGN KEY (`studentId`) REFERENCES `student` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `course_student_link_ibfk_1` FOREIGN KEY (`courseId`) REFERENCES `cource` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of course_student_link
 -- ----------------------------
 
 -- ----------------------------

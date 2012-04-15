@@ -21,7 +21,7 @@
 		<many-to-one name="kind" column="kind_id" class="Kind"	not-null="true" lazy="false"/>
 		<many-to-one name="winer" column="winer_id"	class="AuctionUser"	not-null="false" lazy="false"/>
 		<many-to-one name="itemState" column="state_id" class="State"	not-null="true" lazy="false"/>
-
+<!-- 此处是一对多的关系，一个物品会被多个人竞争拍卖 -->
 		<set  name="bids" inverse="true">
 			<key column="item_id" />
 			<one-to-many class="Bid" />

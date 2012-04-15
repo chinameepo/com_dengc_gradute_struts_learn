@@ -28,6 +28,7 @@ public class Item
 	private Kind kind;       
 	private AuctionUser winer;
 	private State itemState;
+	//一个物品可能有多个拍卖者，所以这里是一对多的关系，此处没有在数据库中有印射。
 	private Set<Bid> bids = new HashSet();
 	
 	/**
