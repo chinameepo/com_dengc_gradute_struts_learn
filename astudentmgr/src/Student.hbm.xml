@@ -24,9 +24,19 @@
 		<property name="escClass" />
 		<property name="fine" />
 		<property name="note" />
-		<!-- 一个学生只能对应一个班级，一个班级可以有多个学生，因此此处是多对一 -->
 		
+		<!-- 班级：一个学生只能对应一个班级，一个班级可以有多个学生，因此此处是多对一 -->
 		<many-to-one name="studentClass" column="studentClass"
 			class="StudentClass" lazy="false" />
+		<!-- 分数：是多对一的关系，一个学生拥有多个成绩 -->
+		<set name="scores" inverse="true">
+			<key column="id" />
+			<one-to-many class="model.Score" />
+		</set>
+		<!--课程： 多对多的关系，一个学生可以选择多个课程，一个课程可以有多个学生 -->
+		<set name="courses" table="course_student_link" lazy="false" cascade="all">
+            <key column="courseId"/>
+            <many-to-many class="model.Course" column="studentId"/>
+        </set>
 	</class>
 </hibernate-mapping>

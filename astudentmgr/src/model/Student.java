@@ -38,10 +38,11 @@ public class Student
 	private String fine;
 	/**备注*/
 	private String note;
+	
 	/**
 	 * 多对多的关系，多个学生对应多个课程*/
 	private Set<Course>courses;
-	/**多对一的关系，一个学生有多个成绩*/
+	/**一对多的关系，一个学生有多个成绩*/
 	private Set<Score>scores;
 	/**
 	 * getter && setter方法
