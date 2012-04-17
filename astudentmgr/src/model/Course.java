@@ -1,6 +1,9 @@
 package model; 
 
+import java.util.HashSet;
 import java.util.Set;
+
+
 
 /** 
  * 文件名：Course.java
@@ -23,7 +26,7 @@ public class Course
 	private String time;
 	private String note;
 	/*多对多的关系，一个课程可能有多个学生选中，一个学生也有多个课程*/
-	private Set<StudentClass> studentClass;
+	private Set<StudentClass> studentClass = new HashSet<StudentClass>();
 	
 	
 }

@@ -1,6 +1,9 @@
 package model; 
 
+import java.util.HashSet;
 import java.util.Set;
+
+import javassist.expr.NewArray;
 
 /** 
  * 文件名：Class.java
@@ -25,7 +28,7 @@ public class StudentClass
 	private String monitor;
 	private String monitorTel;
 	/**这里是一对多的关系，一个班级可以有多个学生*/
-	private Set<Student>students;
+	private Set<Student>students = new HashSet<Student>();
 	
 }
  

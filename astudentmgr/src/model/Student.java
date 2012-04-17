@@ -1,6 +1,8 @@
 package model; 
 
+import java.util.HashSet;
 import java.util.Set;
+
 
 /** 
  * 文件名：Student.java
@@ -41,9 +43,9 @@ public class Student
 	
 	/**
 	 * 多对多的关系，多个学生对应多个课程*/
-	private Set<Course>courses;
+	private Set<Course>courses = new HashSet<Course>();
 	/**一对多的关系，一个学生有多个成绩*/
-	private Set<Score>scores;
+	private Set<Score>scores = new HashSet<Score>();
 	/**
 	 * getter && setter方法
 	 * */
