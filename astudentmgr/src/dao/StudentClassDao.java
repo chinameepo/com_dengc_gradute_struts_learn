@@ -49,6 +49,7 @@ public interface StudentClassDao
 	 * @param studentClass
 	 */
 	void delete(StudentClass studentClass);
+	void delete(int id);
 
 	/**
 	 * 模块5：查找所有的班级信息
@@ -56,5 +57,12 @@ public interface StudentClassDao
 	 * @return 所有的班级信息
 	 */
 	List<StudentClass> findAll();
+	
+	/**
+	 * 模块6：查看班级是否存在，用于添加班级。
+	 * @param class1 要添加的班级
+	 * @return  查询的结果，这个班级是存在还是不存在
+	 */
+	boolean classExisted(StudentClass class1);
 
 }

@@ -37,16 +37,20 @@
 				<value>StudentClass.hbm.xml</value>
 			</list>
 		</property>
+		<!-- hibernate的连接属性 -->
 		<property name="hibernateProperties">
 			<props>
+				<!-- ，规定hibernate的方言是mysql数据库的，如果是其它的数据库，方言要修改 -->
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<!-- 是否在前台显示hibernate的SQL语句 -->
 				<prop key="show_sql">true</prop>
-				<!-- 不同的数据库的连接，启动的时候选择更新 -->
+				<!-- 启动的时候选择更新 ，是否根据HBM文件创建数据连接表-->
 				<prop key="hibernate.hbm2ddl.auto">update</prop>
 				<prop key="hibernate.jdbc.batch_size">20</prop>
 			</props>
 		</property>
 	</bean>
+	
 	<bean id="transactionManager"
 		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
 		<property name="sessionFactory" ref="sessionFactory" />
@@ -83,28 +87,31 @@
 			</list>
 		</property>
 	</bean>
-
-	<bean id="mgr" class="service.impl.AuctionManagerImpl">
-		<property name="userDao" ref="auctionUserDao" />
-		<property name="bidDao" ref="bidDao" />
-		<property name="itemDao" ref="itemDao" />
-		<property name="kindDao" ref="kindDao" />
-		<property name="stateDao" ref="stateDao" />
+    <!-- 把Dao层的组件注入业务逻辑 -->
+	<bean id="mgr" class="service.imp.StudentManagerImpl">
+		<property name="userDao" ref="userDao" />
+		<property name="courseDao" ref ="courseDao"/>
+		<property name="scoreDao" ref="scoreDao"/>
+		<property name="studentDao" ref="studentDao"/>
+		<property name="studentClassDao" ref="studentClassDao"/>
 	</bean>
+	<!-- 配置DAO组件的模板，指定了sessioinFactory实例 -->
 	<bean id="daoTemplate" abstract="true">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
-
-	
-
-	<bean id="kindDao" class="dao.impl.KindDaoHibernate"
+    <!-- 具体的DAO组件 -->
+	<bean id="userDao" class="dao.impl.UserDaoHibernate"
 		parent="daoTemplate" />
-
-	<bean id="checkWiner" class="schedule.CheckWiner">
-		<property name="mgr" ref="mgr" />
-	</bean>
-
-<!-- 一些spring的配置，不用管 -->
+	<bean id="courseDao" class="dao.impl.CourseDaoHibernate"
+	parent="daoTemplate" />
+	<bean id="scoreDao" class="dao.impl.ScoreDaoHibernate"
+		parent="daoTemplate" />
+	<bean id="studentDao" class="dao.impl.StudentDaoHibernate"
+		parent="daoTemplate" />
+	<bean id="studentClassDao" class="dao.impl.StudentClassDaoHibernate"
+		parent="daoTemplate" />
+		
+	<!-- 一些spring的配置，不用管 -->
 	<bean id="scheduledTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
 		<property name="delay" value="0" />
 		<property name="period" value="86400000" />

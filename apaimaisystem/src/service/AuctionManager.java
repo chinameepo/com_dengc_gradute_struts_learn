@@ -5,10 +5,6 @@ import java.util.List;
 import bisiness.ItemBean;
 import exception.AuctionException;
 
-
-
-
-
 public interface AuctionManager {
 	/**
 	 * 模块1

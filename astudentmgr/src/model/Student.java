@@ -14,6 +14,7 @@ import java.util.Set;
  */
 public class Student
 {
+	int id;
 	/**姓名、性别、籍贯、电话等联系方式*/
 	private String name;
 	private String sex;
@@ -41,6 +42,160 @@ public class Student
 	/**备注*/
 	private String note;
 	
+	
+	
+	public int getId()
+	{
+		return id;
+	}
+	public void setId(int id)
+	{
+		this.id = id;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	public String getSex()
+	{
+		return sex;
+	}
+	public void setSex(String sex)
+	{
+		this.sex = sex;
+	}
+	public String getAddress()
+	{
+		return address;
+	}
+	public void setAddress(String address)
+	{
+		this.address = address;
+	}
+	public String getTel()
+	{
+		return tel;
+	}
+	public void setTel(String tel)
+	{
+		this.tel = tel;
+	}
+	public String getEmail()
+	{
+		return email;
+	}
+	public void setEmail(String email)
+	{
+		this.email = email;
+	}
+	public String getQq()
+	{
+		return qq;
+	}
+	public void setQq(String qq)
+	{
+		this.qq = qq;
+	}
+	public StudentClass getStudentClass()
+	{
+		return studentClass;
+	}
+	public void setStudentClass(StudentClass studentClass)
+	{
+		this.studentClass = studentClass;
+	}
+	public String getRoom()
+	{
+		return room;
+	}
+	public void setRoom(String room)
+	{
+		this.room = room;
+	}
+	public String getPoor()
+	{
+		return poor;
+	}
+	public void setPoor(String poor)
+	{
+		this.poor = poor;
+	}
+	public String getRalation()
+	{
+		return ralation;
+	}
+	public void setRalation(String ralation)
+	{
+		this.ralation = ralation;
+	}
+	public String getRalationTel()
+	{
+		return ralationTel;
+	}
+	public void setRalationTel(String ralationTel)
+	{
+		this.ralationTel = ralationTel;
+	}
+	public double getAvaScore()
+	{
+		return avaScore;
+	}
+	public void setAvaScore(double avaScore)
+	{
+		this.avaScore = avaScore;
+	}
+	public String getDiscipline()
+	{
+		return discipline;
+	}
+	public void setDiscipline(String discipline)
+	{
+		this.discipline = discipline;
+	}
+	public int getEscClass()
+	{
+		return escClass;
+	}
+	public void setEscClass(int escClass)
+	{
+		this.escClass = escClass;
+	}
+	public String getFine()
+	{
+		return fine;
+	}
+	public void setFine(String fine)
+	{
+		this.fine = fine;
+	}
+	public String getNote()
+	{
+		return note;
+	}
+	public void setNote(String note)
+	{
+		this.note = note;
+	}
+	public Set<Course> getCourses()
+	{
+		return courses;
+	}
+	public void setCourses(Set<Course> courses)
+	{
+		this.courses = courses;
+	}
+	public Set<Score> getScores()
+	{
+		return scores;
+	}
+	public void setScores(Set<Score> scores)
+	{
+		this.scores = scores;
+	}
 	/**
 	 * 多对多的关系，多个学生对应多个课程*/
 	private Set<Course>courses = new HashSet<Course>();

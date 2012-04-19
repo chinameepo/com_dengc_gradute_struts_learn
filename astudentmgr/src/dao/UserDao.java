@@ -21,12 +21,12 @@ public interface UserDao
 	 */
 	User getUser(int id);
 	
-	/**模块2：把获得的用户添加到数据库中去
+	/**模块2：把获得的用户添加到数据库中去，用于添加用户
 	 * @param user
 	 */
 	void save(User user);
 	/**
-	 * 模块3：修改用户信息，更新到数据库
+	 * 模块3：修改用户信息，更新到数据库。用于修改信息
 	 * @param user
 	 */
 	void update(User user);
@@ -54,12 +54,12 @@ public interface UserDao
 	 * @param password 密码
 	 * @return 登陆的用户
 	 */
-	User finduUserByNameAndPass(String username,String password,String type);
+	User findUserByNameAndPass(String username,String password,String type);
 	
 	/**
-	 * 模块7,：检查用户是否已经注销
+	 * 模块7,：检查用户是否存在 ，用于添加某个用户，如果用户存在则不能添加
 	 * @param user
-	 * @return 是否注销用户的结果
+	 * @return 查询用户的结果
 	 */
 	boolean userExited(User user);
 }

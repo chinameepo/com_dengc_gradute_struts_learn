@@ -60,5 +60,6 @@ public interface StudentDao
 	 * @return 数据库中所有的学生信息
 	 */
 	List<Student> findAll();
+	
 }
  

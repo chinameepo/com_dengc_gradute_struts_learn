@@ -80,6 +80,7 @@ public class AuctionUserDaoHibernate extends HibernateDaoSupport implements
 
 	}
 
+	@SuppressWarnings("unchecked")
 	public boolean userExsited(AuctionUser user) {
 		try {
 			String queryString = "from AuctionUser au where au.username = ? and au.userpass = ?";

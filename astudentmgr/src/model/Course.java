@@ -19,6 +19,7 @@ public class Course
 	 * 属性包括
 	 * 课程名、老师、教材、教室、时间，备注
 	 * */
+	private int id;
 	private String name;
 	private String teacher;
 	private String book;
@@ -28,6 +29,69 @@ public class Course
 	/*多对多的关系，一个课程可能有多个学生选中，一个学生也有多个课程*/
 	private Set<StudentClass> studentClass = new HashSet<StudentClass>();
 	
-	
+	public int getId()
+	{
+		return id;
+	}
+	public void setId(int id)
+	{
+		this.id = id;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	public String getTeacher()
+	{
+		return teacher;
+	}
+	public void setTeacher(String teacher)
+	{
+		this.teacher = teacher;
+	}
+	public String getBook()
+	{
+		return book;
+	}
+	public void setBook(String book)
+	{
+		this.book = book;
+	}
+	public String getClassroom()
+	{
+		return classroom;
+	}
+	public void setClassroom(String classroom)
+	{
+		this.classroom = classroom;
+	}
+	public String getTime()
+	{
+		return time;
+	}
+	public void setTime(String time)
+	{
+		this.time = time;
+	}
+	public String getNote()
+	{
+		return note;
+	}
+	public void setNote(String note)
+	{
+		this.note = note;
+	}
+	public Set<StudentClass> getStudentClass()
+	{
+		return studentClass;
+	}
+	public void setStudentClass(Set<StudentClass> studentClass)
+	{
+		this.studentClass = studentClass;
+	}
 }
  
