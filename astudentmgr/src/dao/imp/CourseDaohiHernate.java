@@ -16,7 +16,7 @@ import dao.CourceDao;
  * @since jdk1.6
  * 课程类的hibernateDAO的实现,功能注释详细查看CourceDao
  */
-public class CourceDaohiHernate extends HibernateDaoSupport implements CourceDao
+public class CourseDaohiHernate extends HibernateDaoSupport implements CourceDao
 {
 	public void delete(int id)
 	{

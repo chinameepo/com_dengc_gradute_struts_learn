@@ -4,7 +4,7 @@
 	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
 <!-- 一个hibernate的映射文件，是课程的印射。包括课程名称、上课时间地点、老师教材等信息-->
 <hibernate-mapping package="model">
-	<class name="Cource" table="cource">
+	<class name="Course" table="cource">
 		<id	name="id" type="int" column="id">
 			<generator class="identity"/>
 		</id>
@@ -15,9 +15,9 @@
 		<property name="book"/>
 		<property name="note"/>
 		<!-- 这是一个班级，一个课程可以有多个班级，一个班级也可以有多个课程。所以此处是多对多的关系 -->
-		 <set name="studentClass" table="course_student_link" lazy="false" cascade="all">
-            <key column="id"/>
-            <many-to-many class="model.StudentClass" column="id"/>
+		 <set name="students" table="course_student_link" lazy="false" cascade="all">
+            <key column="courseId"/>
+            <many-to-many class="model.Student" column="studentId"/>
         </set>
 	</class>
 </hibernate-mapping>

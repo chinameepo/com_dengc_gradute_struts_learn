@@ -27,7 +27,7 @@ public class Course
 	private String time;
 	private String note;
 	/*多对多的关系，一个课程可能有多个学生选中，一个学生也有多个课程*/
-	private Set<StudentClass> studentClass = new HashSet<StudentClass>();
+	private Set<Student> students = new HashSet<Student>();
 	
 	public int getId()
 	{
@@ -85,13 +85,14 @@ public class Course
 	{
 		this.note = note;
 	}
-	public Set<StudentClass> getStudentClass()
+	public Set<Student> getStudents()
 	{
-		return studentClass;
+		return students;
 	}
-	public void setStudentClass(Set<StudentClass> studentClass)
+	public void setStudents(Set<Student> students)
 	{
-		this.studentClass = studentClass;
+		this.students = students;
 	}
+	
 }
  

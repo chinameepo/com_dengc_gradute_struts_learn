@@ -25,6 +25,7 @@ public class Score
 	{
 		this.id = id;
 	}
+	
 	public Course getCourse()
 	{
 		return course;
@@ -57,6 +58,7 @@ public class Score
 	{
 		this.student = student;
 	}
+	
 
 }
  

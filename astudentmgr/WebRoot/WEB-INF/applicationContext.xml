@@ -31,7 +31,7 @@
 		<property name="mappingResources">
 			<list>
 				<value>User.hbm.xml</value>
-				<value>Cource.hbm.xml</value>
+				<value>Course.hbm.xml</value>
 				<value>Score.hbm.xml</value>
 				<value>Student.hbm.xml</value>
 				<value>StudentClass.hbm.xml</value>
@@ -100,15 +100,15 @@
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
     <!-- 具体的DAO组件 -->
-	<bean id="userDao" class="dao.impl.UserDaoHibernate"
+	<bean id="userDao" class="dao.imp.UserDaoHibernate"
 		parent="daoTemplate" />
-	<bean id="courseDao" class="dao.impl.CourseDaoHibernate"
+	<bean id="courseDao" class="dao.imp.CourseDaohiHernate"
 	parent="daoTemplate" />
-	<bean id="scoreDao" class="dao.impl.ScoreDaoHibernate"
+	<bean id="scoreDao" class="dao.imp.ScoreDaoHibernate"
 		parent="daoTemplate" />
-	<bean id="studentDao" class="dao.impl.StudentDaoHibernate"
+	<bean id="studentDao" class="dao.imp.StudentDaoHibernate"
 		parent="daoTemplate" />
-	<bean id="studentClassDao" class="dao.impl.StudentClassDaoHibernate"
+	<bean id="studentClassDao" class="dao.imp.StudentClassDaoHibernate"
 		parent="daoTemplate" />
 		
 	<!-- 一些spring的配置，不用管 -->

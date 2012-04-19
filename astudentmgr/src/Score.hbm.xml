@@ -16,6 +16,6 @@
 		<!-- 学生：一个成绩能对应一个学生，一个学生可以拥有多个成绩，所以此处是多对一 -->
 		<many-to-one name="student" column="stuid" class="Student" not-null="true" lazy="false"/>
 		<!--课程： 一门课程可以有多个成绩，一个成绩对应一门课程。所以此处是多对一 -->
-		<many-to-one name="cource" column="courceid" class ="Cource" not-null="true" lazy="false"/>
+		<many-to-one name="course" column="cource" class ="Course" not-null="true" lazy="false"/>
    </class>
 </hibernate-mapping>

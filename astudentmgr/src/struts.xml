@@ -11,26 +11,25 @@
     <constant name = "struts.enable.DynamicMethodInvocation" value = "true"/>
 
     <package name="deng" extends="struts-default">
-        
 		<interceptors>
             <interceptor name="authority" class="action.incepertor.AuthorityInterceptor"/>
-            <interceptor-stack name="auctionStack">
+            <interceptor-stack name="studentMgrStack">
                 <interceptor-ref name="defaultStack"/>
                 <interceptor-ref name="authority"/>
             </interceptor-stack>
 		</interceptors>
 
-		<default-interceptor-ref name="auctionStack"/>
+		<default-interceptor-ref name="studentMgrStack"/>
 
 		<global-results>
 			<!-- 下面定义的结果对所有的Action都有效 -->
-			<result name="login">/WEB-INF/page/login.jsp</result>
+			<result name="login">login.jsp</result>
 			<result name="exception">/WEB-INF/page/error.ftl</result>
 		</global-results>
 
 		<global-exception-mappings>
 			<!-- 指Action抛出AuctionException异常时，转入名为exception的结果。 -->
-			<exception-mapping exception="exception.AuctionException" result="exception"/>
+			<exception-mapping exception="exception.StudentmgrException" result="exception"/>
 			<!-- 指Action抛出Exception异常时，转入名为exception的结果。 -->
 			<exception-mapping exception="java.lang.Exception" result="exception"/>
 		</global-exception-mappings>
@@ -39,10 +38,10 @@
         <action name="login" class="action.LoginAction">
             <result name="input" type="freemarker">/WEB-INF/page/login.ftl</result>    
             <result name="success" type="freemarker">/WEB-INF/page/main.ftl</result>
-            <result name="failure" type="freemarker">/WEB-INF/page/login.ftl</result>
+            <result name="error" type="freemarker">/WEB-INF/page/login.ftl</result>
 			<interceptor-ref name="defaultStack"/>
         </action>
     </package> 
    
-   <include file="struts-viewkind.xml"/>
+   
 </struts>

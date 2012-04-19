@@ -54,15 +54,15 @@ public class LoginAction extends BaseAction
 		{
 			if(null ==mgr.validateLogin(username, password, type))
 			{
-				
+				return ERROR;
 			}
 		}
 		catch (StudentmgrException e)
 		{
 			e.printStackTrace();
+			return ERROR;
 		}
+		return SUCCESS;
 	}
-	
-
 }
  

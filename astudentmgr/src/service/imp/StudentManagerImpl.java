@@ -8,6 +8,8 @@ import model.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.opensymphony.xwork2.ActionContext;
+
 import service.StudentManager;
 
 import dao.CourceDao;
@@ -149,6 +151,10 @@ public class StudentManagerImpl implements StudentManager
 		{
 			User user =userDao.findUserByNameAndPass(username, password, type);
 			if(null == user)
+			{
+				return null;
+			}
+			ActionContext.getContext().getSession().put("userId", user.getId());
 			return user;
 		}
 		catch (Exception e)
