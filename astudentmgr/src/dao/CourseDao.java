@@ -12,7 +12,7 @@ import model.Course;
  * @since jdk1.6
  * 课程的DAO接口
  */
-public interface CourceDao
+public interface CourseDao
 {
 	/**
 	 * 模块一：获得指定ID的课程

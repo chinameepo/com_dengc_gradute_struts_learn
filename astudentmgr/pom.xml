@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name />
-	<description />
+	<description/>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.openejb</groupId>

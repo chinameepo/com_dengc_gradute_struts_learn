@@ -111,18 +111,5 @@
 	<bean id="studentClassDao" class="dao.imp.StudentClassDaoHibernate"
 		parent="daoTemplate" />
 		
-	<!-- 一些spring的配置，不用管 -->
-	<bean id="scheduledTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
-		<property name="delay" value="0" />
-		<property name="period" value="86400000" />
-		<property name="timerTask" ref="checkWiner" />
-	</bean>
-
-	<bean id="timerFactory" class="org.springframework.scheduling.timer.TimerFactoryBean">
-		<property name="scheduledTimerTasks">
-			<list>
-				<ref bean="scheduledTask" />
-			</list>
-		</property>
-	</bean>
+	
 </beans>

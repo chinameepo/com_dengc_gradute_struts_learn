@@ -12,7 +12,7 @@ import com.opensymphony.xwork2.ActionContext;
 
 import service.StudentManager;
 
-import dao.CourceDao;
+import dao.CourseDao;
 import dao.ScoreDao;
 import dao.StudentClassDao;
 import dao.StudentDao;
@@ -37,7 +37,7 @@ public class StudentManagerImpl implements StudentManager
 	private StudentDao studentDao;
 	private StudentClassDao studentClassDao;
 	private UserDao userDao;
-	private CourceDao courceDao;
+	private CourseDao courseDao;
 	private ScoreDao scoreDao;
 	/**
 	 * getter && setter 
@@ -74,13 +74,14 @@ public class StudentManagerImpl implements StudentManager
 	{
 		this.userDao = userDao;
 	}
-	public CourceDao getCourceDao()
+	
+	public CourseDao getCourseDao()
 	{
-		return courceDao;
+		return courseDao;
 	}
-	public void setCourceDao(CourceDao courceDao)
+	public void setCourseDao(CourseDao courseDao)
 	{
-		this.courceDao = courceDao;
+		this.courseDao = courseDao;
 	}
 	public ScoreDao getScoreDao()
 	{
@@ -154,7 +155,7 @@ public class StudentManagerImpl implements StudentManager
 			{
 				return null;
 			}
-			ActionContext.getContext().getSession().put("userId", user.getId());
+			ActionContext.getContext().getSession().put("userName", user.getUsername());
 			return user;
 		}
 		catch (Exception e)

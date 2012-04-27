@@ -6,7 +6,7 @@ import model.Course;
 
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
-import dao.CourceDao;
+import dao.CourseDao;
 
 /** 
  * 文件名：CourceDaohiHernate.java
@@ -16,7 +16,7 @@ import dao.CourceDao;
  * @since jdk1.6
  * 课程类的hibernateDAO的实现,功能注释详细查看CourceDao
  */
-public class CourseDaohiHernate extends HibernateDaoSupport implements CourceDao
+public class CourseDaohiHernate extends HibernateDaoSupport implements CourseDao
 {
 	public void delete(int id)
 	{
@@ -36,13 +36,14 @@ public class CourseDaohiHernate extends HibernateDaoSupport implements CourceDao
 
 	public Course findCourseByName(String nameString)
 	{
-		String hqlString = "from Cource as c where c.name = ";
+		String hqlString = "from Course as c where c.name = ";
 		return (Course) getHibernateTemplate().find(hqlString,nameString);
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<Course> findCoursesByTeacher(String teacherName)
 	{
-		String hqlString = "from Cource as c where c.name = ? ";
+		String hqlString = "from Course as c where c.name = ? ";
 		return  getHibernateTemplate().find(hqlString,teacherName);
 	}
 

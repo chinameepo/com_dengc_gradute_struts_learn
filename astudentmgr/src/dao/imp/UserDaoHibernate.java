@@ -68,7 +68,7 @@ public class UserDaoHibernate extends HibernateDaoSupport implements UserDao
 			{ username, password, type };
 		List<User> resultlList = getHibernateTemplate()
 				.find(
-						"from User as user where user.username = ? and user.userpass = ? and user.type = ?",
+						"from User as user where user.username = ? and user.password = ? and user.type = ?",
 						args);
 		if (1 == resultlList.size())
 		{

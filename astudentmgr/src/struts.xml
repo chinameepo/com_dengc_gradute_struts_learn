@@ -12,7 +12,7 @@
 
     <package name="deng" extends="struts-default">
 		<interceptors>
-            <interceptor name="authority" class="action.incepertor.AuthorityInterceptor"/>
+            <interceptor name="authority" class="action.interceptor.AuthorityInterceptor"/>
             <interceptor-stack name="studentMgrStack">
                 <interceptor-ref name="defaultStack"/>
                 <interceptor-ref name="authority"/>
