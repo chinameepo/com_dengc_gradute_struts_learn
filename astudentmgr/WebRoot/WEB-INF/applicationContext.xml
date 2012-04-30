@@ -43,7 +43,7 @@
 				<!-- ，规定hibernate的方言是mysql数据库的，如果是其它的数据库，方言要修改 -->
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
 				<!-- 是否在前台显示hibernate的SQL语句 -->
-				<prop key="show_sql">true</prop>
+				<!--prop key="show_sql">true</prop-->
 				<!-- 启动的时候选择更新 ，是否根据HBM文件创建数据连接表-->
 				<prop key="hibernate.hbm2ddl.auto">update</prop>
 				<prop key="hibernate.jdbc.batch_size">20</prop>

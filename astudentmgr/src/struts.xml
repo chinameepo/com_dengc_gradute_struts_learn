@@ -10,7 +10,7 @@
     <!-- 允许struts动态请求，只是调用struts里面的某个方法 -->
     <constant name = "struts.enable.DynamicMethodInvocation" value = "true"/>
 
-    <package name="deng" extends="struts-default">
+    <package name="stumgr" extends="struts-default">
 		<interceptors>
             <interceptor name="authority" class="action.interceptor.AuthorityInterceptor"/>
             <interceptor-stack name="studentMgrStack">
@@ -19,29 +19,47 @@
             </interceptor-stack>
 		</interceptors>
 
-		<default-interceptor-ref name="studentMgrStack"/>
+		<default-interceptor-ref name="defaultStack"/>
 
 		<global-results>
 			<!-- 下面定义的结果对所有的Action都有效 -->
 			<result name="login">login.jsp</result>
-			<result name="exception">/WEB-INF/page/error.ftl</result>
+			<result name="exception">/WEB-INF/page/error.jsp</result>
+			<result name="Stuexception" >/WEB-INF/page/error.jsp</result>
 		</global-results>
 
 		<global-exception-mappings>
 			<!-- 指Action抛出AuctionException异常时，转入名为exception的结果。 -->
-			<exception-mapping exception="exception.StudentmgrException" result="exception"/>
+			<exception-mapping exception="exception.StudentmgrException" result="Stuexception"/>
 			<!-- 指Action抛出Exception异常时，转入名为exception的结果。 -->
 			<exception-mapping exception="java.lang.Exception" result="exception"/>
 		</global-exception-mappings>
 		
-	
+	    <!-- 登陆的action -->
         <action name="login" class="action.LoginAction">
-            <result name="input" type="freemarker">/WEB-INF/page/login.ftl</result>    
+            <result name="input" type="freemarker">login.jsp</result>    
             <result name="success" type="freemarker">/WEB-INF/page/main.ftl</result>
-            <result name="error" type="freemarker">/WEB-INF/page/login.ftl</result>
+            <result name="error" type="freemarker">login.jsp</result>
 			<interceptor-ref name="defaultStack"/>
         </action>
+        <!-- 添加学生信息的action -->
+        <action name="addStudent" class="action.AddStudentAction">
+       		<result name="input" type="freemarker" >/WEB-INF/page/addStu.ftl</result>
+        	<result name="success" type="freemarker">/WEB-INF/page/main.ftl</result>
+        </action>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- 一些临时用来跳转到action -->
+        <action name ="goAddStu" class="action.temp.AddStuTempAction">
+        	<result name="success" type="freemarker">/WEB-INF/page/addStu.ftl</result>
+        </action>
     </package> 
-   
    
 </struts>

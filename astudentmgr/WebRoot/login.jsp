@@ -23,8 +23,16 @@
 			targetForm.reset();
 		   }
 		</script>
+		<style type="text/css"> 
+		body { 
+		 background-image: url("img/sky.jpg");
+ 		 background-repeat: no-repeat;
+		 background-position:center;
+		 background-attachment:fixed;
+		} 
+		</style>
 	</head>
-	<body background="img/sky.jpg">
+	<body>
 	<div align="center">
 	 <img src="img/top.png" alt=" 学生信息管理系统"width="800" height="100" />
 	 </div>
@@ -34,8 +42,7 @@
 			<s:textfield name="username" label="用户名"></s:textfield>
      		<s:password name="password" label="密 码"></s:password>
             <!-- -顶一个一个单选按钮 -->
-            <s:radio label="用户类型"  name ="type"  list= "{'学生','管理员'}" value ="管理员" />
-           
+            <s:radio label="用户类型"  name ="type" list="#{'0':'管理员','1':'学生'}"  value="0"/>
 		</s:form>
 	</div>
 	<div align ="center">

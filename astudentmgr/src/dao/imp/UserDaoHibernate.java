@@ -74,6 +74,10 @@ public class UserDaoHibernate extends HibernateDaoSupport implements UserDao
 		{
 			return (User) resultlList.get(0);
 		}
+		else 
+		{
+			logger.info("用户登陆中，用户名和密码错误！");
+		}
 		return null;
 	}
 

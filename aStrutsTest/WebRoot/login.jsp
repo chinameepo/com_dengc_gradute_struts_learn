@@ -41,10 +41,10 @@ function login() {
             <!-- 定义一个组合框按钮 -->
             <s:combobox name ="combo"label = "静夜思" theme ="css_xhtml" labelposition ="top" size ="20"
             list="{'床前明月光','疑是地上霜'}"/>
+            <!-- 此处要headerValue="man" headerKey="man"同时选中才能把它作为默人的值来处理。 -->
+            <s:select list="{'woman','other'}" theme="simple" name="sex" headerValue="man" headerKey="man" label ="性别" />
 			<s:submit value="登陆" />
-
 			<input type="button" value="注册 " onclick="regist();" />
-
 			<s:reset value="清空" />
 
 		</s:form>

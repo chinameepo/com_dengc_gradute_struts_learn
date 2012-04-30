@@ -13,7 +13,7 @@
 		<table align="center">
 		 <tr>
 		   <td>
-		     <s:textfield name ="username" label ="用户名" value="deng"></s:textfield>
+		     <s:textfield name ="username" label ="用户名" value="deng"/>
 		   </td>
 		 </tr>
 		 <tr>

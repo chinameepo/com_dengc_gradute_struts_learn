@@ -69,12 +69,11 @@ public class StudentClassDaoHibernate extends HibernateDaoSupport implements Stu
 
 	public StudentClass getsStudentClass(String name)
 	{
-		String queryString = "from StudentClass as sc where sc.name = ?";
+		String queryString = "from StudentClass as sc where sc.className = ?";
 		List<StudentClass> resultlList =getHibernateTemplate().find(queryString,name);
-		Iterator<StudentClass> iterator = resultlList.iterator();
-		if(iterator.hasNext())
+		if (1 == resultlList.size())
 		{
-			return (StudentClass)iterator.next();
+			return (StudentClass)resultlList.get(0);
 		}
 		return null;
 	}

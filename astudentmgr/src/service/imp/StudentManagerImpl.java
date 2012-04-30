@@ -1,8 +1,10 @@
 package service.imp; 
 
 import java.util.List;
+import java.util.Map;
 
 import model.Student;
+import model.StudentClass;
 import model.User;
 
 import org.slf4j.Logger;
@@ -92,15 +94,16 @@ public class StudentManagerImpl implements StudentManager
 		this.scoreDao = scoreDao;
 	}
 	
+	
 	/**
 	 * 添加学生信息
 	 * @param student
 	 * @return
 	 */
-	public int addStudent(Student student)
+	public void addStudent(Student student)
 	{
-		// TODO Auto-generated method stub
-		return 0;
+		studentDao.save(student);
+		logger.info("学生信息添加成功！学生姓名:"+student.getName());
 	}
 	
 	/**
@@ -155,7 +158,10 @@ public class StudentManagerImpl implements StudentManager
 			{
 				return null;
 			}
-			ActionContext.getContext().getSession().put("userName", user.getUsername());
+			Map session =ActionContext.getContext().getSession();
+			session.put("userName", user.getUsername());
+			session.put("userId", user.getId());
+			logger.info("登陆成功，用户名是"+user.getUsername());
 			return user;
 		}
 		catch (Exception e)
@@ -165,9 +171,22 @@ public class StudentManagerImpl implements StudentManager
 			throw new StudentmgrException("用户登录出现异常,请重新登陆。");
 		}
 	}
+	/* (non-Javadoc)
+	 * @see service.StudentManager#findAllClass()
+	 */
+	public List<StudentClass> findAllClass()
+	{
+		return studentClassDao.findAll();
+	}
+	/* 
+	 * 通过班级名来查找班级
+	 * (non-Javadoc)
+	 * @see service.StudentManager#findClassByName(java.lang.String)
+	 */
+	public StudentClass findClassByName(String name)
+	{
+		return studentClassDao.getsStudentClass(name);
+	}
 	
-	
-	
-
 }
  

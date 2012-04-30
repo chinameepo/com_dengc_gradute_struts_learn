@@ -4,6 +4,7 @@ import java.util.List;
 
 import exception.StudentmgrException;
 import model.Student;
+import model.StudentClass;
 import model.User;
 
 
@@ -49,10 +50,21 @@ public interface StudentManager
 	 */
 	public List<Student> findStuByName(String name);
 	/**
+	 * 把输入的学生信息添加到数据库中。
 	 * @param student
 	 * @return
 	 */
-	public int addStudent(Student student);
+	public void addStudent(Student student);
+	/**
+	 * 查找所有班级。
+	 * @return 班级列表
+	 */
+	public List<StudentClass> findAllClass();
+	/**
+	 * 通过班级名来寻找指定的班级
+	 * @param name 班级名，例如“工业0604”
+	 */
+	public StudentClass findClassByName(String name);
 
 }
  

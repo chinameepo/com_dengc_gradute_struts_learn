@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+	"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="name">
+		<field-validator type="requiredstring">
+			<message>校验xml:学生姓名不能为空！</message>
+		</field-validator>
+	</field>
+	<field name="address">
+		<field-validator type="requiredstring">
+			<message>校验xml:家庭地址不能为空！</message>
+		</field-validator>
+	</field>
+	<field name="tel">
+		<field-validator type="requiredstring">
+			<message>校验xml:联系方式不能为空！</message>
+		</field-validator>
+	</field>
+	<field name="qq">
+		<field-validator type="requiredstring">
+			<message>校验xml:qq号码不能为空！</message>
+		</field-validator>
+	</field>
+	<field name="email">
+		<field-validator type="requiredstring">
+			<message>配置xml：电子邮箱不能为空！</message>
+		</field-validator>
+		<field-validator type="email">
+			<message>输入的email格式不正确.</message>
+		</field-validator>
+	</field>
+	<field name="room">
+		<field-validator type="requiredstring">
+			<message>校验xml:寝室号码不能为空！</message>
+		</field-validator>
+	</field>
+	<field name="ralation">
+		<field-validator type="requiredstring">
+			<message>校验xml:家庭联系人不能为空！</message>
+		</field-validator>
+	</field>
+	<field name="ralationTel">
+		<field-validator type="requiredstring">
+			<message>校验xml:家庭联系人号码不能为空！</message>
+		</field-validator>
+	</field>
+	<field name="avaScore">
+		<field-validator type="requiredstring">
+			<message>校验xml:平均学分绩不能为空！</message>
+		</field-validator>
+	</field>
+</validators>

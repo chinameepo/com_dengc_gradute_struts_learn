@@ -52,9 +52,16 @@ public class LoginAction extends BaseAction
 	{
 		try
 		{
+			if("0".equals(type))
+			{
+				type ="管理员";
+			}
+			else {
+				type ="学生";
+			}
 			if(null ==mgr.validateLogin(username, password, type))
 			{
-				return ERROR;
+				return INPUT;
 			}
 		}
 		catch (StudentmgrException e)
