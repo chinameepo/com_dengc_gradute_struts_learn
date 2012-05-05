@@ -57,6 +57,7 @@ public class StudentClassDaoHibernate extends HibernateDaoSupport implements Stu
 		getHibernateTemplate().delete(getHibernateTemplate().get(StudentClass.class, id));
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<StudentClass> findAll()
 	{
 		return getHibernateTemplate().find("from StudentClass");

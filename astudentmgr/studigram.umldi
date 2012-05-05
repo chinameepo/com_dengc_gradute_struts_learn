@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_imDoEJaxEeGCM80iHHYK6Q" activeDiagram="_imzO8JaxEeGCM80iHHYK6Q">
+  <model href="studigram.uml#_h8yBkZaxEeGCM80iHHYK6Q"/>
+  <diagrams xmi:id="_imzO8JaxEeGCM80iHHYK6Q" position="0,0" size="100,100" name="studigram" viewport="163,402">
+    <property xmi:id="_jW7rYJaxEeGCM80iHHYK6Q" key="pageFormatName" value=""/>
+    <property xmi:id="_jW7rYZaxEeGCM80iHHYK6Q" key="diagramWidth" value="1160"/>
+    <property xmi:id="_jW7rYpaxEeGCM80iHHYK6Q" key="diagramHeight" value="1852"/>
+    <property xmi:id="_jW7rY5axEeGCM80iHHYK6Q" key="pageMarginName" value="A4"/>
+    <property xmi:id="_jW7rZJaxEeGCM80iHHYK6Q" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_jW7rZZaxEeGCM80iHHYK6Q" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_jW7rZpaxEeGCM80iHHYK6Q" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_jW7rZ5axEeGCM80iHHYK6Q" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_jW7raJaxEeGCM80iHHYK6Q" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_imzO8ZaxEeGCM80iHHYK6Q" presentation="org.topcased.modeler.uml.classdiagram">
+      <element href="studigram.uml#_h8yBkZaxEeGCM80iHHYK6Q"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_jnU30JaxEeGCM80iHHYK6Q" position="35,34" size="1050,1743">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_jnU30ZaxEeGCM80iHHYK6Q" presentation="default">
+        <element href="studigram.uml#_iPaCoJaxEeGCM80iHHYK6Q"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_jzr40JaxEeGCM80iHHYK6Q" position="78,26" size="278,-1">
+        <anchorage xmi:id="_j4dEEJaxEeGCM80iHHYK6Q" graphEdge="_j61psJaxEeGCM80iHHYK6Q"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_jzr40ZaxEeGCM80iHHYK6Q" presentation="default">
+          <element href="studigram.uml#_iQvfYJaxEeGCM80iHHYK6Q"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_jzr40paxEeGCM80iHHYK6Q">
+          <property xmi:id="_jzr405axEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_jzr41JaxEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iQvfYJaxEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0cGwJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0cGwZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYMyQZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0lQsJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0lQsZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYMyQ5axEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0lQspaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0lQs5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYV8MJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0lQtJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0lQtZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYftMJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0lQtpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0lQt5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYftMZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0lQuJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0lQuZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYftMpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0lQupaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0lQu5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYpeMJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0vBsJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0vBsZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYpeMZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0vBspaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0vBs5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iYyoIZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_jzr41ZaxEeGCM80iHHYK6Q">
+          <property xmi:id="_jzr41paxEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_jzr415axEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iQvfYJaxEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j0vBtJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0vBtZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZFjEJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j04LoJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j04LoZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZFjEpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j04LopaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j04Lo5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZFjFJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j04LpJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j04LpZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZFjFpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j04LppaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j04Lp5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZPUEZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j04LqJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j04LqZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZPUE5axEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1B8oJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1B8oZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZPUFZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1B8opaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1B8o5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZZFEJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1B8pJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1B8pZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZZFEpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1B8ppaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1B8p5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZZFFJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1B8qJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1B8qZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZiPAJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1LtoJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1LtoZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZiPApaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1LtopaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1Lto5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZsAAJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1LtpJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1LtpZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZsAApaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1LtppaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1Ltp5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZsABJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1LtqJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1LtqZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZ1xAJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1LtqpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1Ltq5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZ1xApaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1LtrJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1LtrZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZ-68JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_j0SVwJaxEeGCM80iHHYK6Q" position="785,21" size="250,-1">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SVwZaxEeGCM80iHHYK6Q" presentation="default">
+          <element href="studigram.uml#_iRV8UZaxEeGCM80iHHYK6Q"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_j0SVwpaxEeGCM80iHHYK6Q">
+          <property xmi:id="_j0SVw5axEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SVxJaxEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iRV8UZaxEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1U3kJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1U3kZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iZ-68paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1U3kpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1U3k5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iaR14JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1U3lJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1U3lZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iaR14ZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1U3lpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1U3l5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iabm4JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_j0SVxZaxEeGCM80iHHYK6Q">
+          <property xmi:id="_j0SVxpaxEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SVx5axEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iRV8UZaxEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1U3mJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1U3mZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iabm4ZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1U3mpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1U3m5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iabm45axEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1eokJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1eokZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iabm5ZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1eokpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1eok5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iabm55axEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1eolJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1eolZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iabm6ZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1eolpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1eol5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ialX4JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1eomJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1eomZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ialX4paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1eompaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1eom5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ialX5JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_j0SVyJaxEeGCM80iHHYK6Q" position="445,1027" size="243,-1">
+        <anchorage xmi:id="_j61pu5axEeGCM80iHHYK6Q" graphEdge="_j6_asJaxEeGCM80iHHYK6Q _j6_aupaxEeGCM80iHHYK6Q"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SVyZaxEeGCM80iHHYK6Q" presentation="default">
+          <element href="studigram.uml#_iRV8U5axEeGCM80iHHYK6Q"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_j0SVypaxEeGCM80iHHYK6Q">
+          <property xmi:id="_j0SVy5axEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SVzJaxEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iRV8U5axEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1oZkJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1oZkZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ialX5paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1oZkpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1oZk5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ialX6JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1oZlJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1oZlZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iauh0JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1oZlpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1oZl5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iauh0paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1oZmJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1oZmZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iauh05axEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_j0SVzZaxEeGCM80iHHYK6Q">
+          <property xmi:id="_j0SVzpaxEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SVz5axEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iRV8U5axEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1oZmpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1oZm5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iauh1JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1oZnJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1oZnZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iauh1paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1oZnpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1oZn5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ia4S0JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1xjgJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1xjgZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ia4S0paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1xjgpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1xjg5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ia4S1JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1xjhJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1xjhZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ia4S1paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1xjhpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1xjh5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibCD0JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1xjiJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1xjiZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibCD0paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j1xjipaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j1xji5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibCD1JaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j17UgJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j17UgZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibCD1paxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_j0SV0JaxEeGCM80iHHYK6Q" position="43,640" size="348,-1">
+        <anchorage xmi:id="_j4dEEZaxEeGCM80iHHYK6Q" graphEdge="_j61psJaxEeGCM80iHHYK6Q _j6_aupaxEeGCM80iHHYK6Q"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SV0ZaxEeGCM80iHHYK6Q" presentation="default">
+          <element href="studigram.uml#_iRV8VZaxEeGCM80iHHYK6Q"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_j0SV0paxEeGCM80iHHYK6Q">
+          <property xmi:id="_j0SV05axEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SV1JaxEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iRV8VZaxEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j17UgpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j17Ug5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibLNwJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j17UhJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j17UhZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibLNwZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j17UhpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j17Uh5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibU-wJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j17UiJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j17UiZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibU-wZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2EecJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2EecZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibeIsJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2EecpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2Eec5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibeIsZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2EedJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2EedZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibn5sJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2EedpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2Eed5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibn5sZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2EeeJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2EeeZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ibxqsJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2EeepaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2Eee5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ib60oZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2EefJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2EefZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_icEloJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2EefpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2Eef5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_icElopaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2OPcJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2OPcZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_icOWoJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2OPcpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2OPc5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_icOWopaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2OPdJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2OPdZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_icXgkZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2OPdpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2OPd5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ichRkJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2OPeJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2OPeZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ichRkpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2OPepaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2OPe5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_icqbgJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2OPfJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2OPfZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_icqbg5axEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_j0SV1ZaxEeGCM80iHHYK6Q">
+          <property xmi:id="_j0SV1paxEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SV15axEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iRV8VZaxEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2YAcJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2YAcZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_icqbhZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2YAcpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2YAc5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ic0MgJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2YAdJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2YAdZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ic0MgpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2YAdpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2YAd5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ic0MhJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2YAeJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2YAeZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ic99gJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2YAepaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2YAe5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ic99gpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2YAfJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2YAfZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ic99hJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2YAfpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2YAf5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idHHcJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2hKYJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2hKYZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idHHcpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2hKYpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2hKY5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idHHdJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2hKZJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2hKZZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idHHdpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2hKZpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2hKZ5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idQ4cJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2hKaJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2hKaZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idQ4cpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2hKapaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2hKa5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idQ4dJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2hKbJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2hKbZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idapcJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2q7YJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2q7YZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idapcpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2q7YpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2q7Y5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idjzYJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2q7ZJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2q7ZZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idjzYpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2q7ZpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2q7Z5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idtkYJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2q7aJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2q7aZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idtkYpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j2q7apaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j2q7a5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_idtkZJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j20sYJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j20sYZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_id2uUJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j20sYpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j20sY5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_id2uUpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j20sZJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j20sZZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_id2uVJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j20sZpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j20sZ5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_id2uVpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j20saJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j20saZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieAfUJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j20sapaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j20sa5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieAfUpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j20sbJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j20sbZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieAfVJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j292UJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j292UZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieAfVpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j292UpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j292U5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieKQUJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j292VJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j292VZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieKQUpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j292VpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j292V5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieKQVJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j292WJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j292WZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieTaQJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j292WpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j292W5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieTaQpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j292XJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j292XZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ieTaRJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3HnUJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3HnUZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iedLQJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3HnUpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3HnU5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iedLQpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3HnVJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3HnVZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iedLRJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_j0SV2JaxEeGCM80iHHYK6Q" position="435,508" size="264,-1">
+        <anchorage xmi:id="_j61pupaxEeGCM80iHHYK6Q" graphEdge="_j6_asJaxEeGCM80iHHYK6Q"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SV2ZaxEeGCM80iHHYK6Q" presentation="default">
+          <element href="studigram.uml#_iRV8V5axEeGCM80iHHYK6Q"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_j0SV2paxEeGCM80iHHYK6Q">
+          <property xmi:id="_j0SV25axEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="37"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SV3JaxEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iRV8V5axEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3QxQJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3QxQZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iedLRpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3QxQpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3QxQ5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iem8QZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3QxRJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3QxRZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iem8QpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3QxRpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3QxR5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iem8Q5axEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3aiQJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3aiQZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iewGMJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3aiQpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3aiQ5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iewGMZaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3aiRJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3aiRZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_iewGMpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3aiRpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3aiR5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ie53MJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_j0SV3ZaxEeGCM80iHHYK6Q">
+          <property xmi:id="_j0SV3paxEeGCM80iHHYK6Q" key="eStructuralFeatureID" value="47"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j0SV35axEeGCM80iHHYK6Q" presentation="default">
+            <element href="studigram.uml#_iRV8V5axEeGCM80iHHYK6Q"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3aiSJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3aiSZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifDBIJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3aiSpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3aiS5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifDBIpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3kTQJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3kTQZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifDBJJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3kTQpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3kTQ5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifDBJpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3kTRJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3kTRZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifDBKJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3kTRpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3kTR5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifDBKpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3kTSJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3kTSZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifMyIJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3kTSpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3kTS5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifMyIpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3kTTJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3kTTZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifMyJJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3tdMJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3tdMZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifMyJpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3tdMpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3tdM5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifMyKJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3tdNJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3tdNZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifMyKpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3tdNpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3tdN5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifWjIJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3tdOJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3tdOZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifWjIpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j3tdOpaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j3tdO5axEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifWjJJaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_j33OMJaxEeGCM80iHHYK6Q" position="0,0" size="-1,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j33OMZaxEeGCM80iHHYK6Q" presentation="default">
+              <element href="studigram.uml#_ifWjJpaxEeGCM80iHHYK6Q"/>
+            </semanticModel>
+          </contained>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_j61psJaxEeGCM80iHHYK6Q" anchor="_j4dEEJaxEeGCM80iHHYK6Q _j4dEEZaxEeGCM80iHHYK6Q">
+        <property xmi:id="_kEFFQJaxEeGCM80iHHYK6Q" key="router" value="Automatic"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j61psZaxEeGCM80iHHYK6Q" presentation="default">
+          <element href="studigram.uml#_ig_h5JaxEeGCM80iHHYK6Q"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j61pspaxEeGCM80iHHYK6Q" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j61ps5axEeGCM80iHHYK6Q" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j61ptJaxEeGCM80iHHYK6Q" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j61ptZaxEeGCM80iHHYK6Q" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j61ptpaxEeGCM80iHHYK6Q" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j61pt5axEeGCM80iHHYK6Q" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_j61puJaxEeGCM80iHHYK6Q" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_j61puZaxEeGCM80iHHYK6Q" id="stereotypeEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_j6_asJaxEeGCM80iHHYK6Q" anchor="_j61pupaxEeGCM80iHHYK6Q _j61pu5axEeGCM80iHHYK6Q">
+        <property xmi:id="_kEFFQpaxEeGCM80iHHYK6Q" key="router" value="Automatic"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j6_asZaxEeGCM80iHHYK6Q" presentation="default">
+          <element href="studigram.uml#_ig_h4JaxEeGCM80iHHYK6Q"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_aspaxEeGCM80iHHYK6Q" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_as5axEeGCM80iHHYK6Q" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_atJaxEeGCM80iHHYK6Q" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_atZaxEeGCM80iHHYK6Q" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_atpaxEeGCM80iHHYK6Q" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_at5axEeGCM80iHHYK6Q" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_j6_auJaxEeGCM80iHHYK6Q" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_j6_auZaxEeGCM80iHHYK6Q" id="stereotypeEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_j6_aupaxEeGCM80iHHYK6Q" anchor="_j4dEEZaxEeGCM80iHHYK6Q _j61pu5axEeGCM80iHHYK6Q">
+        <property xmi:id="_kEFFQZaxEeGCM80iHHYK6Q" key="router" value="Automatic"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j6_au5axEeGCM80iHHYK6Q" presentation="default">
+          <element href="studigram.uml#_ig_h4paxEeGCM80iHHYK6Q"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_avJaxEeGCM80iHHYK6Q" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_avZaxEeGCM80iHHYK6Q" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_avpaxEeGCM80iHHYK6Q" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_av5axEeGCM80iHHYK6Q" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_awJaxEeGCM80iHHYK6Q" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+        <contained xsi:type="di:EdgeObjectUV" xmi:id="_j6_awZaxEeGCM80iHHYK6Q" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_j6_awpaxEeGCM80iHHYK6Q" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_j6_aw5axEeGCM80iHHYK6Q" id="stereotypeEdgeObject" offset="0,-10"/>
+      </contained>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>
