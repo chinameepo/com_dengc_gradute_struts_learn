@@ -47,7 +47,7 @@
         }
       </script>
     </head>
-    <body>
+    <body background="sky.jpg">
      
       <!-- 输入actionerro的信息 -->
       <s:actionerror/>
